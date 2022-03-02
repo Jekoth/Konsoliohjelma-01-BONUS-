@@ -11,7 +11,7 @@ namespace Konsoliohjelma
                 {
                     if (o.Test == false)
                     {
-                    Console.WriteLine("O.Test equals " + o.Test);
+                        Console.WriteLine("O.Test equals " + o.Test);
                         Console.WriteLine("Incorrect");
                     }
                     else
@@ -21,10 +21,11 @@ namespace Konsoliohjelma
 
                     if (o.Verbose == true)
                     {
-                    Console.WriteLine("O.Verbose equals " + o.Verbose);
+                        Console.WriteLine("O.Verbose equals " + o.Verbose);
                         Console.WriteLine("Correct");
                     }
 
+                    Console.WriteLine("O.Url equals" + o.Url);
                 });
         }
     }
@@ -38,6 +39,6 @@ namespace Konsoliohjelma
         public bool Verbose { get; set; }
 
         [Option('u', "url")]
-        public string? Url { get; set; }
+        public string Url { get; set; }
     }
 }

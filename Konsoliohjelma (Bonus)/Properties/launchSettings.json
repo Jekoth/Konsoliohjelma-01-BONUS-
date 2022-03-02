@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Konsoliohjelma (Bonus)": {
+      "commandName": "Project",
+      "commandLineArgs": "-t -v u=www.google.com"
+    }
+  }
+}
